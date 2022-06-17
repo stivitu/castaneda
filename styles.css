@@ -1,0 +1,106 @@
+
+body {
+background-color: inherit;
+background: url("images/potok23.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+padding: 0;
+text-align:center;
+text-decoration: none;
+}
+.jr{width:auto;}
+.runecast1 img{width: 10%;}
+.runecast2 img{width: 10%;}
+.runa{
+width: 10%;
+display: inline-block;
+text-align: center;}
+
+.button {
+       background-color: #EEEEEE;
+   color: #240409;
+   padding: 3px 2px;
+   text-align: center;
+   font-family: 'Uncial Antiqua', cursive;
+   text-decoration: none;
+   font-size: 20px;
+   border: 3px solid #240409;
+   border-radius: 30%;
+ }
+#result {color: #b3045e;}
+.buttons { text-align: center;}
+.intro {padding : 10px 125px;}
+
+.explanation {padding : 5px 125px;}
+h2 {
+  margin: 30px;
+  font-family: 'Uncial Antiqua', cursive;
+  text-shadow: 4px 0 #232931;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #D41DE2;
+  text-align: center;
+}
+h3 {text-align: center;
+  font-family: 'Uncial Antiqua', cursive;
+   color: #fff;
+ text-shadow: 3px 0 #232931;
+ font-size: 3rem;
+}
+.means {margin-bottom: 20px;}
+.meaning {
+text-align: justify;}
+.mr {
+
+     color: #D41DE2;
+     text-decoration: inherit;
+     text-shadow: 2px 0 #232931;
+      }
+.morerunes a{text-decoration: none;
+             }
+.outcome {margin-top: 0;}
+h4 {text-align: center;
+  /*font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Pacifico', cursive;*/
+   font-family: 'Uncial Antiqua', cursive;
+   color:  #232931; padding-top: 0; padding-bottom: 0;
+   text-shadow: 2px 0 #fff;
+   margin-top: 0;
+   font-size: 2rem;}
+p {
+  font-size: 1.5rem;
+  font-family: 'Uncial Antiqua', cursive;
+}
+.pdown { text-align: center;}
+.pattern-bottom { width: 100%;
+ padding: 0;
+ margin: 0;
+}
+
+
+  @media (max-width: 750px) {
+    body {
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+    .intro  {padding:5px;
+      margin: 5px;
+      text-align: left;}
+    .explanation  {padding:5px;
+        margin: 5px;
+        text-align: left;}
+    h2 {font-size: 3.0rem; }
+    h3 {font-size: 2.0rem;}
+    h4{font-size: 1.7rem;
+         }
+    .runecast1 img{width:30%;}
+    .runecast2 img{width:30%;}
+    .button{font-size: 22px;}
+    .run img {width: 35%;
+            }
+    .par {
+      font-size: 22px;
+        }
+
+    }
