@@ -3,7 +3,7 @@ body {
 background-color: inherit;
 background: url("images/pijesak.jpg");
 background-repeat: no-repeat;
-background-size: auto;
+background-size: stretch;
 margin: 0;
 padding: 0;
 text-align:center;
