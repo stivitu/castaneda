@@ -78,6 +78,12 @@ p {
  margin: 0;
 }
 
+@media (max-width: 1024px) {
+    body {
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+  }
 
   @media (max-width: 750px) {
     body {
