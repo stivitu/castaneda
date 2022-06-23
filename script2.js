@@ -37,12 +37,14 @@ const array2 = [
  "Ratnik ne pridaje preveliko značenje ljudskim djelovanjima, stoga se on ne može ljutiti na ljude. Ljudska djelovanja nikada ne mogu zasjeniti jednu činjenicu. Naš neizbježni susret s vječnošću.",
  "Ništa vrijedno na ovom svijetu se ne dobija na poklon. Za to je potrebno uložiti trud i vrijeme.",
  "Moć leži u vrsti znanja koju posjedujemo. Kakva je korist od znanja koje ne možemo upotrijebiti?",
- "Nijedno ljudsko djelovanje nije vrijednije od Svijeta. Zato je Svijet za ratnika neiscrpna zagonetka."]
+ "Nijedno ljudsko djelovanje nije vrijednije od Svijeta. Zato je Svijet za ratnika neiscrpna zagonetka.",
+ "Ratniku mjesto ne igra nikakvu ulogu. Dok god može doći do piva i grickalica :)"
+]
 
- //array 39 članova
+ //array 40 članova
 
 function myFunction2() {
-let randomNumber2 = Math.floor(Math.random() * 39);
+let randomNumber2 = Math.floor(Math.random() * 40);
 let randomTip2 = array2[randomNumber2];
 document.getElementById("hrvatski").innerText= randomTip2;
 }
