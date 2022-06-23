@@ -40,11 +40,12 @@
     "Nothing in this world is a gift. Whatever has to be learned must be learned the hard way.",
     "Power rests on the kind of knowledge that one holds. What is the sense of knowing things that are useless? They will not prepare us for our unavoidable encounter with the unknown.",
     "The things that people do cannot under any conditions be more important than the world. And thus a warrior treats the world as an endless mystery and what people do as an endless folly.",
-    "Dwelling upon the self too much produces a terrible fatigue. A man in that position is deaf and blind to everything else. The fatigue makes him cease to see the marvels all around him."
+    "Dwelling upon the self too much produces a terrible fatigue. A man in that position is deaf and blind to everything else. The fatigue makes him cease to see the marvels all around him.",
+    "For a warrior place has no importance. As long he has access to snacks and beer :)"
      ]
-    //array 39 članova
+    //array 40 članova
 function myFunction1() {
- let randomNumber1 = Math.floor(Math.random() * 39);
+ let randomNumber1 = Math.floor(Math.random() * 40);
  let randomTip1 = array1[randomNumber1];
  document.getElementById("engleski").innerText= randomTip1;
  }
